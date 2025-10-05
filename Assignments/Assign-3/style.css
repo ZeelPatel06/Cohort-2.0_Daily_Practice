@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    padding-top: 20px;
+}
+
+nav>a{
+    padding-top: 20px;
+    padding-left: 200px;
+    text-decoration: none;
+    color: black;
+}
+#main>h1{
+    text-align: center;
+    font-size: 300px;
+    padding: 50px 100px;
+}
+img{
+    width: 30%;
+    height: 30%;
+}
+#imagecont{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    text-align: center;
+    padding: 10px 30px;
+}
+h3{
+    padding-left: 50px;
+    font-size: 30px;
+}
+p{
+    padding: 10px;
+    margin: 10px 10px;
+}
+button{
+    padding: 10px 20px;
+    margin-left: 80px;
+    margin-top: 10px;
+    background-color: rgb(1, 0, 66);
+    color: white;
+}

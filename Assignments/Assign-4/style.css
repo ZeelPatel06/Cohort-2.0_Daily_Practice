@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #888;
+}
+#carsmain{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+#zcars{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 90vh;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#car1{
+    margin: 10px;
+    background-color: white;
+    color: #333;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+#car1 img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#car1 button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#car2{
+    margin: 10px;
+    background-color: white;
+    color: #333;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+#car2 img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#car2 button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#car3{
+    margin: 10px;
+    background-color: white;
+    color: #333;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+#car3 img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#car3 button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#car4{
+    margin: 10px;
+    background-color: white;
+    color: #333;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+#car4 img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#car4 button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#zcarslux{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 90vh;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#car5{
+    margin: 10px;
+    background-color: white;
+    color: #333;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+#car5 img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#car5 button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#car6{
+    margin: 10px;
+    background-color: white;
+    color: #333;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+#car6 img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#car6 button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#car7{
+    margin: 10px;
+    background-color: white;
+    color: #333;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+#car7 img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#car7 button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#car8{
+    margin: 10px;
+    background-color: white;
+    color: #333;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+#car8 img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+#car8 button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}

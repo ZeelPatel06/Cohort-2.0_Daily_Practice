@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background: url("https://imgs.search.brave.com/Isz-ZpkKFcRAkNRp0FPI2m14Q23kGNDEauWJmMOB7gU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJiYXQuY29t/L2ltZy8zMzY2MzQ0/My1sdXh1cnktbGlm/ZXN0eWxlLW9uLXgt/bHV4dXJ5LWxpdmlu/Zy5qcGc");
+    background-size: cover;
+}
+h1{
+    color: rgb(219, 241, 221);
+    text-align: center;
+    font-size: 50px;
+    padding: 50px 100px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(170, 0, 79);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0px 550px;
+}
